@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 40;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+}
+
+nav .logo img{
+    width: 150px;
+    height: 40px;
+}
+
+nav .navbar_links ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+nav .navbar_links ul li{
+    margin-right: 20px;
+    list-style: none;
+    font-weight: bolder;
+}
+
+nav .navbar_links ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+nav .navbar_links ul .searchbar{
+    background: #C6C628;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+/*  */
+.banner_conta{
+    background: url("../img/0G2A8223-2048x1365.jpg");
+    height: 95vh;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /*  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner_conta .banner_text{
+    position: absolute;
+    bottom: 80px;
+    
+
+    /*  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.banner_conta .banner_text h1{
+    color: #fff;
+    font-weight: 600;
+    font-size: 38;
+}
+.banner_conta .banner_text p{
+    color: #fff;
+    font-weight: 600;
+    font-size: 25px;
+}
+.banner_conta .banner_btn{
+    margin-top: 40px;
+
+}
+.banner_conta .banner_btn a{
+    padding: 1px;
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.banner_conta .banner_btn a button{
+    background: transparent;
+    color: #fff;
+    border: none;
+    font-weight: 600;
+    font-size: 15px;
+}
+.banner_conta .banner_btn .btn1{
+    background: #a203a2;
+}
+.banner_conta .banner_btn .btn2{
+    background: #a2d90a;
+
+}
+.banner_conta .banner_btn .btn3{
+    background: #fff;
+
+
+}
+.content2 .academy h2{
+    color: aqua;
+
+}
