@@ -114,7 +114,7 @@ nav .navbar_links ul .searchbar{
 }
     
 .courses .content2{
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
@@ -146,4 +146,124 @@ nav .navbar_links ul .searchbar{
     color: rgb(33, 171, 171);
     font-weight: 600;
     font-size: 20px;
+}
+.middle {
+    text-align: center;
+    padding: 40px 0;
+
+}
+.middle h3{
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: #00aeef;
+}
+.middle p {
+    font-size: 35px;
+    font-weight: bold;
+    color: #5c2d91;
+}
+.mother {
+    display: grid;
+    margin: auto;
+    margin-top: 40px;
+    width: 90%;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.mother .course-x img{
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    
+}
+.mother .course-x h2 {
+    padding: 15px;
+    color:  #5c2d91;
+    font-size: 25px;
+
+}
+.mother .course-x p{
+    padding: 0 15px;
+    font-size: 15px;
+    color: #444;
+
+}
+.mother .course-x button{
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 6px;
+    background: #c2d416;
+    margin: 15px;
+    transition: 0.03s;
+    cursor: pointer;
+    align-self: flex-start;
+    
+
+}
+.counter {
+    background: #040a3f;
+}
+.access{
+    display: flex;
+}
+.access .img-logo{
+    width: 50%;
+}
+.access .img-logo img{
+    width: 100%;
+
+}
+
+.access .Program{
+    width: 50%;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+.access .Program h3{
+    font-size: 30px;
+    color: #1b2578;
+    font-weight: 600;
+    padding: 10;
+    
+}
+.access .Program h5{
+    font-size: 18px;
+    font-weight: 550;
+    color: #131947;
+    padding: 10px 0;
+
+    }
+.access .Program p{
+    font-size: 18px;
+    padding: 10px 0;
+}
+.access .Program button{
+    color: #fff;
+    font-weight: 400;
+    background: #c2d416;
+    border-radius: 6px;
+    padding: 10px 20px;
+    border: none;
+
+
+
+
+}
+.access .logo{
+    display: flex;
+
+}
+.access .logo img{
+    width: 200px;
+    height: auto;
+}
+.foot{
+    display: flex;
+}
+.foot .foot-1 .icon{
+    display: flex;
 }
